@@ -59,7 +59,5 @@ function gotResult(error, results){
     }
     console.log(results);
     objects = results;
-
-    objectDetector.detect(img, gotResult);
 }
 
